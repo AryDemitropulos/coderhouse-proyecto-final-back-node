@@ -1,6 +1,6 @@
 import jwt from "jsonwebtoken";
 import bcrypt from "bcryptjs";
-import { authModel } from "../dao/UsuariosDaoMongoDB.js";
+import { authModel } from "../dao/usuariosDaoMongoDB.js";
 import { Config } from "../config.js";
 
 export class ControllerUsuarios {
